@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="kk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Туған күніңізбен, Ілияс ағай!</title>
+        <style>
+            body {
+                background-image: url("back.jpeg");
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                font-family: "Arial", sans-serif;
+                color: #fff;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+                margin: 0;
+                padding: 20px;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container {
+                max-width: 800px;
+                background-color: rgba(0, 0, 0, 0.6);
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+                backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            video {
+                width: 100%;
+                max-width: 800px;
+                border-radius: 10px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+                margin-bottom: 30px;
+            }
+
+            h1 {
+                color: #ffd700;
+                font-size: 2.5em;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 1.2em;
+                line-height: 1.8;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .signature {
+                font-style: italic;
+                text-align: right;
+                margin-top: 30px;
+                font-size: 1.3em;
+            }
+
+            .signature b {
+                color: #ffd700;
+                font-style: normal;
+            }
+            img {
+                width: 70%;
+                height: 50%;
+            }
+
+            hr {
+                border: 0;
+                height: 1px;
+                background-image: linear-gradient(
+                    to right,
+                    rgba(255, 255, 255, 0),
+                    rgba(255, 255, 255, 0.75),
+                    rgba(255, 255, 255, 0)
+                );
+                margin: 30px 0;
+                width: 80%;
+            }
+
+            @media (max-width: 600px) {
+                .container {
+                    padding: 20px;
+                }
+
+                h1 {
+                    font-size: 2em;
+                }
+
+                .message {
+                    font-size: 1em;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            confirm(
+                "Бұл бетке тек буллинг жақсы жасай алатындар ғана кіреді, сіз кіруге сенімдісізбе?",
+            );
+        </script>
+
+        <video src="video.mp4" controls autoplay loop></video>
+
+        <div class="container">
+            <h1>Туған күніңізбен!</h1>
+
+            <div class="message">
+                Құрметті Ілияс ағай!<br /><br />
+
+                Туған күніңізбен шын жүректен құттықтаймыз! Сізге зор денсаулық,
+                мол бақыт, биік белестер мен армандардың орындалуын тілейміз.
+                Студенттік жолыңыз сәттілікке толы болып, армандаған кәсіби
+                биіктерге жете беріңіз!<br /><br />
+
+                Бізге үйретіп жүрген бар біліміңіз бен қолдауыңыз үшін алғысымыз
+                шексіз. Жүзіңізден әрдайым күлкі кетпесін, өміріңіз қуаныш пен
+                шабытқа толы болсын!
+                <img src="photo.jpeg" />
+            </div>
+            <div class="signature">
+                Ізгі тілекпен,<br />
+                <b>Құдайберді</b> және <b>Оспан Аружан</b>
+            </div>
+        </div>
+
+        <hr />
+    </body>
+</html>
